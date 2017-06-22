@@ -32,19 +32,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let cnyJsonData =  try? Data(contentsOf: cnyUrl!)
             
             //print(jsonString)
-<<<<<<< HEAD
+//<<<<<<< HEAD
             let usdJsonDictionary:NSDictionary = try JSONSerialization.jsonObject(with: usdJsonData!, options: .mutableContainers) as! Dictionary<String, AnyObject> as NSDictionary
             let jpyJsonDictionary:NSDictionary = try JSONSerialization.jsonObject(with: jpyJsonData!, options: .mutableContainers) as! Dictionary<String, AnyObject> as NSDictionary
             let eurJsonDictionary:NSDictionary = try JSONSerialization.jsonObject(with: eurJsonData!, options: .mutableContainers) as! Dictionary<String, AnyObject> as NSDictionary
             let gbpJsonDictionary:NSDictionary = try JSONSerialization.jsonObject(with: gbpJsonData!, options: .mutableContainers) as! Dictionary<String, AnyObject> as NSDictionary
             let cnyJsonDictionary:NSDictionary = try JSONSerialization.jsonObject(with: cnyJsonData!, options: .mutableContainers) as! Dictionary<String, AnyObject> as NSDictionary
-=======
-            let usdJsonDictionary = try JSONSerialization.jsonObject(with: usdJsonData!, options: .mutableContainers) as! [String:AnyObject]
-            let jpyJsonDictionary = try JSONSerialization.jsonObject(with: jpyJsonData!, options: .mutableContainers) as! [String:AnyObject]
-            let eurJsonDictionary = try JSONSerialization.jsonObject(with: eurJsonData!, options: .mutableContainers) as! [String:AnyObject]
-            let gbpJsonDictionary = try JSONSerialization.jsonObject(with: gbpJsonData!, options: .mutableContainers) as! [String:AnyObject]
-            let cnyJsonDictionary = try JSONSerialization.jsonObject(with: cnyJsonData!, options: .mutableContainers) as! [String:AnyObject]
->>>>>>> origin/master
             
             let usd_ = usdJsonDictionary["rates"] as! [String:Double]
             let usd = usd_["KRW"]!

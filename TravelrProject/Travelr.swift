@@ -113,11 +113,9 @@ class Budget:NSObject, NSCoding {
     required init?(coder aDecoder: NSCoder) {
         
         self.CardOrCash = aDecoder.decodeObject(forKey: "CardOrCash") as! String
-<<<<<<< HEAD
+//<<<<<<< HEAD
         self.Money = aDecoder.decodeDouble(forKey: "Money")
-=======
-        self.Money = aDecoder.decodeObject(forKey: "Money") as! Double
->>>>>>> origin/master
+
         self.BudgetCurrency = Currency(rawValue: aDecoder.decodeInteger(forKey: "BudgetCurrency"))!
        
         
@@ -270,19 +268,13 @@ class Item:NSObject, NSCoding {
     
     
     required init?(coder aDecoder: NSCoder) {
-<<<<<<< HEAD
+//<<<<<<< HEAD
         self.price = aDecoder.decodeDouble(forKey: "price")
         self.currency = Currency(rawValue: aDecoder.decodeInteger(forKey: "currency"))!
         self.pay = aDecoder.decodeObject(forKey: "pay") as! String
         self.category = aDecoder.decodeObject(forKey: "category") as! String
         self.numberOfPerson = aDecoder.decodeInteger(forKey: "numberOfPerson")
-=======
-        self.price = aDecoder.decodeObject(forKey: "price") as! Double
-        self.currency = Currency(rawValue: aDecoder.decodeInteger(forKey: "currency"))!
-        self.pay = aDecoder.decodeObject(forKey: "pay") as! String
-        self.category = aDecoder.decodeObject(forKey: "category") as! String
-        self.numberOfPerson = aDecoder.decodeObject(forKey: "numberOfPerson") as! Int
->>>>>>> origin/master
+
         self.photo = aDecoder.decodeObject(forKey: "photo") as? UIImage
         self.detail = aDecoder.decodeObject(forKey: "detail") as? String
         self.date = aDecoder.decodeObject(forKey: "date") as! Date

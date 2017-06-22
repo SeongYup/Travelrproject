@@ -64,7 +64,7 @@
             startingLineNumber = "103"
             endingLineNumber = "103"
             landmarkName = "budgetView()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -80,7 +80,7 @@
             startingLineNumber = "105"
             endingLineNumber = "105"
             landmarkName = "budgetView()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -94,41 +94,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "243"
-            endingLineNumber = "243"
-            landmarkName = "MoneyByPayCurrency(_:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TravelrProject.TravelWhere.MoneyByPayCurrency (TravelrProject.Currency) -&gt; (cardSpend : Swift.Double, cashSpend : Swift.Double, cardRemian : Swift.Double, cashRemain : Swift.Double)"
-                  moduleName = "TravelrProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/LEE/Desktop/Travelrproject/TravelrProject/Travelr.swift"
-                  timestampString = "494307271.735899"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "308"
-                  endingLineNumber = "308"
-                  offsetFromSymbolStart = "1356">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TravelrProject.TravelWhere.(MoneyByPayCurrency (TravelrProject.Currency) -&gt; (cardSpend : Swift.Double, cashSpend : Swift.Double, cardRemian : Swift.Double, cashRemain : Swift.Double)).(closure #3)"
-                  moduleName = "TravelrProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/LEE/Desktop/Travelrproject/TravelrProject/Travelr.swift"
-                  timestampString = "494307271.736055"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "308"
-                  endingLineNumber = "308"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
+            endingLineNumber = "243">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,7 +110,7 @@
             startingLineNumber = "231"
             endingLineNumber = "231"
             landmarkName = "MoneyByPayCurrency(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -160,7 +126,7 @@
             startingLineNumber = "244"
             endingLineNumber = "244"
             landmarkName = "currencySetting(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -192,7 +158,7 @@
             startingLineNumber = "346"
             endingLineNumber = "346"
             landmarkName = "pickUpDate(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -207,14 +173,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
             endingLineNumber = "56"
-            landmarkName = "save()"
-            landmarkType = "5">
+            landmarkName = "Currency"
+            landmarkType = "13">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravelrProject/Travelr.swift"
@@ -224,7 +190,7 @@
             startingLineNumber = "24"
             endingLineNumber = "24"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -240,7 +206,7 @@
             startingLineNumber = "142"
             endingLineNumber = "142"
             landmarkName = "pickUpDate2(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -256,7 +222,7 @@
             startingLineNumber = "358"
             endingLineNumber = "358"
             landmarkName = "pickUpDate(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -272,7 +238,7 @@
             startingLineNumber = "107"
             endingLineNumber = "107"
             landmarkName = "pickUpDate1(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -286,7 +252,25 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
-            endingLineNumber = "65">
+            endingLineNumber = "65"
+            landmarkName = "Currency"
+            landmarkType = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelrProject/AppDelegate.swift"
+            timestampString = "496644133.900119"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
